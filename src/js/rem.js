@@ -16,5 +16,9 @@
         win.addEventListener(resizeEvt, recalc, false);
        recalc();
     })(document, window);
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 94838b97d0548cbcd0dcd5e60a83654de10efc4a
 
