@@ -1,37 +1,29 @@
 $(function () {
     var lefts;
     var tops;
-    
-    $('body').on('touchstart',function (e) {
-        var dangqian=e.target;
-        console.log(dangqian)
-        // if()
+    var dangqian;
+    var images;
+    var classname;
+    $('body').bind('touchstart',function (e) {
+        e.preventDefault();
+        dangqian=e.target;
+        images=dangqian.parentNode;
+        classname=images.className;
+        console.log(classname)
+        if(classname==='tiezhi'){
+            $('body').bind('touchmove',function (even) {
+                even.preventDefault();
+                console.log(even.originalEvent.targetTouches[0].pageX);
+            })
+        }
+
     })
-    
-    
-    
-    // $('.tiezhi').on('touchstart',function (e) {
-    //     var dangqian=e.target.parentNode;
-    //     console.log(e.offsetX,e.offsetY)
-    //     $('.tiezhi').on('touchmove',function () {
-    //         lefts=e.originalEvent.targetTouches[0].pageX;
-    //         tops=e.originalEvent.targetTouches[0].pageY;
-    //
-    //         lefts=lefts*2/100;
-    //         tops=tops*2/100;
-    //         lefts=lefts+'rem';
-    //         tops=tops+'rem';
-    //
-    //
-    //         console.log(lefts,tops)
-    //         $('.tiezhi').on('touchend',function () {
-    //             $('.tiezhi').css({'left':lefts,'top':tops})
-    //         })
-    //
-    //
-    //     })
-        // console.log(e.originalEvent.targetTouches[0].pageX)
-        // console.log(e.originalEvent.targetTouches[0].pageY)
-    // })
+
+    $('body').bind('touchend',function (even) {
+        even.preventDefault();
+        $('body').unbind('touchmove');
+        console.log(1);
+    })
+
 
 })
