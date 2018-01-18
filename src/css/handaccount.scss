@@ -1,0 +1,302 @@
+$B:100%;
+@font-face {
+  font-family: zaozigongfangdingding;
+  src: url("../../src/font/zaozigongfangdingding.otf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: zaozigongfangdingding;
+}
+.tiezhi{
+  width: 0.9rem;
+  height: 0.9rem;
+  position: absolute;
+  top:0.96rem;
+  left:4.55rem;
+  z-index: 998;
+  img{
+    width: $B;
+    height: $B;
+  }
+}
+header{
+  width: $B;
+  height: 0.88rem;
+  background: #ffdd1f;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  .fanhui{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color:#ffdd1f;
+    margin-top: 0.2rem;
+  }
+  .wancheng{
+    width: 0.85rem;
+    height: 0.35rem;
+    background: #fff;
+    border-radius: 0.15rem;
+    font-size: 0.22rem;
+    font-family: "微软雅黑";
+    color:#ffdd1f;
+    text-align: center;
+    line-height: 0.35rem;
+    margin-top: 0.27rem;
+  }
+}
+.header-box{
+  width: $B;
+  height: 0.88rem;
+}
+main{
+  width: $B;
+  //min-height: $B;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top:0.88rem;
+  //overflow: hidden;
+  .main-box{
+    width: 7.5rem;
+    height: auto;
+    margin: 0 auto;
+  }
+  .main-beijing{
+    width: $B;
+    height: $B;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: -1;
+    img{
+      width: $B;
+      height: $B;
+    }
+  }
+  .title{
+    width: $B;
+    height: 1.75rem;
+    text-align: center;
+    line-height: 1.75rem;
+    position: relative;
+    font-size: 0.72rem;
+    color:#2c63ee;
+  }
+  .ganxiang{
+    width: $B;
+    height: auto;
+    padding-left: 0.22rem;
+    padding-right: 0.26rem;
+    margin-bottom: 0.28rem;
+    font-size: 0.3rem;
+    box-sizing: border-box;
+    padding-top: 0.04rem;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    p{
+      max-width: 6.3rem;
+      word-break: break-all;
+      line-height: 0.32rem;
+      margin: 0 auto;
+    }
+    .ganxiang-img{
+      width: 0.5rem;
+      height: 0.5rem;
+      margin-right: 0.16rem;
+      img{
+        width: $B;
+        height: $B;
+      }
+    }
+  }
+  .neirong{
+    width: $B;
+    height: auto;
+    box-sizing: border-box;
+    padding-left: 0.22rem;
+    padding-right: 0.28rem;
+    .neirong-yi-title{
+      width: $B;
+      height: 0.34rem;
+      font-size: 0.48rem;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 0.24rem;
+      .neirong-diyi-title{
+        color:#ffdd1f;
+      }
+    }
+
+    .neirong-er-title{
+      width: $B;
+      height: 0.34rem;
+      font-size: 0.48rem;
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 0.24rem;
+      .neirong-diyi-title{
+        color:#ffdd1f;
+      }
+    }
+
+    .neirong-yi{
+      width: $B;
+      height: auto;
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 0.62rem;
+      .neirong-yi-img{
+        width: 1.5rem;
+        height: 1.5rem;
+        background: blue;
+        border-radius: 0.03rem;
+        margin-top: 0.04rem;
+        margin-right: 0.52rem;
+        img{
+          width: $B;
+          height: $B;
+        }
+      }
+      .neirong-yi-you{
+        max-width: 4.97rem;
+        height: auto;
+        .neirong-yi-text{
+          width: $B;
+          font-size: 0.28rem;
+        }
+      }
+
+      .neirong-er-img{
+        width: 1.5rem;
+        height: 1.5rem;
+        //background: blue;
+        border-radius: 0.03rem;
+        margin-top: 0.04rem;
+        img{
+          width: $B;
+          height: $B;
+        }
+      }
+      .neirong-er-you{
+        max-width: 4.97rem;
+        height: auto;
+        margin-right: 0.52rem;
+        .neirong-er-text{
+          width: $B;
+          font-size: 0.28rem;
+        }
+      }
+
+    }
+  }
+  .handaccount-img-box{
+    width: $B;
+    height: 2.36rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.3rem;
+    //background: red;
+    .img-box{
+      width: 1rem;
+      height: 2.16rem;
+      //background: blue;
+      margin-top: 0.2rem;
+      margin-right: 0.01rem;
+      border-radius: 0.5rem;
+      background: url("../../src/img/baiyang-handaccount-2.png") no-repeat center 0;
+    }
+  }
+
+  .shiping-box{
+    width: $B;
+    height: 0.64rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 0.22rem;
+    padding-right: 0.28rem;
+    margin-bottom: 0.24rem;
+    .shiping{
+      width: 2.1rem;
+      height: 0.64rem;
+      position: relative;
+      img{
+        width: $B;
+        height: $B;
+        position: absolute;
+        left:0;
+        top:0;
+      }
+      .shiping-text{
+        width: 1.77rem;
+        height: 0.28rem;
+        position: absolute;
+        left: 0.14rem;
+        top:0.26rem;
+        color: #ffdd1f;
+        font-size: 0.28rem;
+        display: flex;
+        justify-content: space-between;
+        .iconfont{
+          font-size: 0.2rem;
+        }
+      }
+    }
+  }
+  .jieshuyu-box{
+    width: $B;
+    height: auto;
+    box-sizing: border-box;
+    padding-left: 0.22rem;
+    padding-right: 0.28rem;
+    line-height: 0.36rem;
+    font-size: 0.28rem;
+  }
+
+  footer{
+    width: $B;
+    height: 0.98rem;
+    background: #2e3439;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 0.22rem;
+    padding-right: 0.28rem;
+    .footer-icon{
+      width: 20%;
+      height: $B;
+      box-sizing: border-box;
+      padding-top: 0.22rem;
+      display: flex;
+      justify-content: center;
+      img{
+        width: 0.64rem;
+        height: 0.52rem;
+      }
+    }
+  }
+  .footer-box{
+    width: $B;
+    height: 0.98rem;
+  }
+}
