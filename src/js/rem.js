@@ -11,17 +11,10 @@
                 docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
             }
         };
-
-<<<<<<< HEAD
+    
     if (!doc.addEventListener) return;
     win.addEventListener(resizeEvt, recalc, false);
     recalc();
 })(document, window);
-=======
-        if (!doc.addEventListener) return;
-        win.addEventListener(resizeEvt, recalc, false);
-        recalc();
-    })(document, window);
->>>>>>> f35e200ad8399ea03c2d3ba565081108edf2d119
 
 
