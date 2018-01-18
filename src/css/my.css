@@ -92,7 +92,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 
 section{
   position: fixed;
-  bottom: 0.4rem;
+  bottom: 1.4rem;
   right: 0rem;
   z-index: 999;
 }
@@ -128,4 +128,31 @@ section{
   width: 50%;
   top: 20px;
   left: -50px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  background: #15181b;
+  z-index: 999;
+  display: flex;
+}
+
+footer a{
+  height: 100%;
+  width: 33.33%;
+  display: block;
+}
+
+footer a img{
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+}
+
+.img-byl-set{
+  width: 96%;
 }
