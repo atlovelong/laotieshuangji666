@@ -14,6 +14,8 @@ $(function () {
             $('body').bind('touchmove',function (even) {
                 even.preventDefault();
                 console.log(even.originalEvent.targetTouches[0].pageX);
+                console.log(even.originalEvent.targetTouches[0].screenX);
+
             })
         }
 
