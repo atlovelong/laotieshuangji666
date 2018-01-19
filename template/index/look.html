@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="../../src/iconfont/iconfont.css">
 </head>
 <script src="../../src/js/rem.js"></script>
 <style>
@@ -15,6 +16,9 @@
         list-style: none;
         text-decoration: none;
     }
+    html,body{
+        background: #2c292d;
+    }
     section{
        width:100%;
        height:1.93rem;
@@ -23,7 +27,7 @@
     div.top{
         width: 100%;
         height:0.92rem;
-        background: #ffdb1f;
+        /*background: #ffdb1f;*/
         display:flex;
         justify-content: space-between;
         align-items: center;
@@ -32,12 +36,14 @@
         width:90%;
         height:10.69rem;
         background: #2e3439;
-        position: relative;
-        left:0;
-        top:-0.5rem;
-        right:0;
-        bottom:0;
-        margin: auto;
+        margin: 0 auto;
+        margin-top: -0.5rem;
+        /*position: relative;*/
+        /*left:0;*/
+        /*top:-0.5rem;*/
+        /*right:0;*/
+        /*bottom:0;*/
+        /*margin: auto;*/
         display:flex;
         justify-content: space-between;
         flex-direction: column;
@@ -52,26 +58,35 @@
     div.center{
         font-size:0.32rem;
         color:#ffffff;
+        font-family: "平方";
     }
     div.you{
-        width: 0.39rem;
-        height: 0.39rem;
-        background: #ffffff;
+        width: 0.5rem;
+        height: 0.5rem;
+        background: #ffdb1f;
         margin-right:0.2rem ;
     }
     div.shang{
         width:100% ;
         height:5.34rem;
-        background: #44BE80;
+
+    }
+    div.shang img{
+        width: 100%;
+        height:100%;
+        display: block;
     }
     div.xia{
         width: 100%;
-        height: 5.35rem;
+        height: 5.34rem;
         background: #2e3439;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
+        padding-top:0.4rem ;
+        box-sizing: border-box;
+        padding-bottom: 0.4rem;
     }
     div.one,div.two,div.three,div.six{
         height:0.25rem;
@@ -81,27 +96,45 @@
     span.zi{
         color: #ffdd1f;
         font-size:0.25rem ;
+        font-family: "平方";
     }
     span.word{
         color:#ff7d1e;
         font-size: 0.25rem;
+        font-family: "平方";
     }
-    p{
+    div.four{
         width:4.73rem;
-        display: block;
         height: 0.35rem;
         font-size: 0.25rem;
         color: #fff;
+        font-family: "平方";
     }
+    div.two{
+        color: #ffe59c;
+        font-family: "平方";
+    }
+    /*p{*/
+        /*width:4.73rem;*/
+        /*height: 0.35rem;*/
+        /*font-size: 0.25rem;*/
+        /*color: #fff;*/
+        /*font-family: "平方";*/
+    /*}*/
     div.five{
+        width:4.73rem;
         height:0.9rem;
         font-size: 0.25rem;
-        color: #fff;
+        color: #ffdd1f;
+        font-family: "平方";
+        margin-top:0.45rem ;
     }
     div.five ul{
+        width:4.73rem;
         height:0.9rem
     }
     div.five ul li{
+        width:4.73rem;
         height:0.3rem;
     }
     div.six{
@@ -112,40 +145,136 @@
         text-align: center;
         line-height: 0.63rem;
         color: #fff;
+        font-family: "平方";
+    }
+    div.zuo a{
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: center;
+        line-height: 0.5rem;
+        color:#F1C240;
+    }
+    div.you a{
+        width: 100%;
+        height:100%;
+        display: block;
+        text-align: center;
+        line-height: 0.5rem;
+        color:#ffffff;
+        font-size:0.44rem ;
+    }
+    div.footer{
+        width: 80%;
+        height: 1.09rem;
+        font-size:0.25rem ;
+        margin: 0 auto;
+        color: #5e5e5e;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   div.second{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   div.yuan1,div.yuan2{
+       /*display: inline-block;*/
+       width: 0.1rem;
+       height: 0.1rem;
+       border-radius: 0.2rem;
+       background: #F1C240;
+   }
+   div.yuan1{
+       float:right;
+       margin-top: 0.53rem;
+   }
+    div.yuan2{
+        float:left;
+        margin-top: 0.53rem;
+    }
+    div.shu{
+        height:1.09rem ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 1.09rem;
+
+    }
+    div.shu1{
+        font-size:0.25rem ;
+        color:#ffffff;
+        /*display: inline-block;*/
+        height:1.09rem ;
+        line-height: 1.09rem;
+        margin-top: 0.1rem;
+        /*overflow: hidden;*/
+    }
+    div.shu2{
+        font-size:0.25rem ;
+        color:#5e5e5e;
+        margin-top: 0.1rem;
+        /*overflow: hidden;*/
+        /*display: inline-block;*/
+    }
+    div.first{
+        height: 100%;
+        line-height: 1.09rem;
+    }
+    div.thre{
+        height: 100%;
+        line-height: 1.09rem;
     }
 </style>
 <body>
    <section>
       <div class="top">
-          <div class="zuo"></div>
+          <div class="zuo">
+              <a href="" class="icon iconfont"> &#xe680;</a>
+          </div>
           <div class="center">一起去看看</div>
-          <div class="you"></div>
+          <div class="you">
+              <a href="" class="icon iconfont"> &#xe63d;</a>
+          </div>
       </div>
    </section>
    <div class="photo">
-       <div class="shang"></div>
+       <div class="shang">
+           <img src="../../src/img/tu4.png" alt="">
+       </div>
        <div class="xia">
            <div class="one">
                <span class="zi">吐鲁兹尔特&nbsp&nbsp&nbsp&nbsp·</span>
                <span class="word">阿尔卑斯</span>
            </div>
-           <div class="two">—— - MOUTAIN KESHI - ——</div>
+           <div class="two">—— - M&nbspO&nbspU&nbspT&nbspA&nbspI&nbspN K&nbspE&nbspS&nbspH&nbspI - ——</div>
            <div class="three">LALA</div>
            <div class="four">
-               <p>
-                   拉萨卢卡斯拉克丝拉克丝拉开了啦是啦是啦，
-                   急啊看啥就是咯就是借记卡酷
-               </p>
+                   全长约2500公里,&nbsp&nbsp&nbsp&nbsp&nbsp平均海拔5500-6000&nbsp&nbsp
+               米,宽130-200公里,西窄东宽,总面积 达50多万平方公里
            </div>
            <div class="five">
                <ul>
-                   <li>sdsdsdsdsds</li>
-                   <li>ssdsdsdsddd</li>
-                   <li>sssssssdsds</li>
+                   <li>独特风情&nbsp&nbsp&nbsp&nbsp
+                       <img src="../../src/img/you.png" alt="">&nbsp&nbsp&nbsp&nbsp群山起伏&nbsp&nbsp&nbsp&nbsp
+                       <img src="../../src/img/you.png" alt="">&nbsp&nbsp&nbsp&nbsp雪峰林立</li>
+                   <li></li>
+                   <li>独特风情&nbsp&nbsp&nbsp&nbsp
+                       <img src="../../src/img/you.png" alt="">&nbsp&nbsp&nbsp&nbsp群山起伏&nbsp&nbsp&nbsp&nbsp
+                       <img src="../../src/img/you.png" alt="">&nbsp&nbsp&nbsp&nbsp雪峰林立</li>
                </ul>
            </div>
            <div class="six">更多笺友经历</div>
        </div>
+   </div>
+   <div class="footer">
+      <div class="first">----------------------<div class="yuan1"></div></div>
+       <div class="shu">
+           <div class="shu1">01</div>/
+           <div class="shu2">06</div>
+       </div>
+       <div class="thre"><div class="yuan2"></div>----------------------</div>
    </div>
 </body>
 </html>
