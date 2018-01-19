@@ -37,7 +37,7 @@ $(function () {
 
     })
 
-    $('body').bind('touchend',function (even) {
+    $('.tiezhi').bind('touchend',function (even) {
         even.preventDefault();
         $('.tiezhi').removeClass('yidong-tiezhi');
         $('body').unbind('touchmove');

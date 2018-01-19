@@ -94,20 +94,66 @@ main{
       margin-top: -0.46rem;
       position: relative;
       overflow: hidden;
-      img{
+      .geren-img{
         width: $B;
         height: $B;
         position: absolute;
         left: 0;
         right: 0;
+        img{
+          width: $B;
+          height: $B;
+        }
       }
       .geren-anniu{
         width: 6.03rem;
         height: 6.03rem;
-        margin: 0.84rem auto;
-        background: red;
+        z-index: 99;
+        position: absolute;
+        left: 0.48rem;
+        top: 0.84rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        li{
+          width: 33.333333%;
+          height: 33.333333%;
+          a{
+            display: block;
+            width: $B;
+            height: $B;
+          }
+        }
       }
     }
-
+  }
+}
+.footer-box{
+  width: $B;
+  height: 0.98rem;
+}
+footer{
+  width: $B;
+  height: 0.98rem;
+  background: #15181b;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  //box-sizing: border-box;
+  //padding-left: 0.24rem;
+  //padding-right: 0.24rem;
+  justify-content: flex-start;
+  a{
+    display: block;
+    width: 33.333333%;
+    height: $B;
+    box-sizing: border-box;
+    //padding-top: 0.2rem;
+    img{
+      float: left;
+      width: $B;
+      height: $B;
+    }
   }
 }

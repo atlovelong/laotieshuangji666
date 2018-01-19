@@ -110,7 +110,7 @@ main .main-box .geren-shezhi-anniu {
   overflow: hidden;
 }
 
-main .main-box .geren-shezhi-anniu img {
+main .main-box .geren-shezhi-anniu .geren-img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -118,9 +118,59 @@ main .main-box .geren-shezhi-anniu img {
   right: 0;
 }
 
+main .main-box .geren-shezhi-anniu .geren-img img {
+  width: 100%;
+  height: 100%;
+}
+
 main .main-box .geren-shezhi-anniu .geren-anniu {
   width: 6.03rem;
   height: 6.03rem;
-  margin: 0.84rem auto;
-  background: red;
+  z-index: 99;
+  position: absolute;
+  left: 0.48rem;
+  top: 0.84rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+main .main-box .geren-shezhi-anniu .geren-anniu li {
+  width: 33.333333%;
+  height: 33.333333%;
+}
+
+main .main-box .geren-shezhi-anniu .geren-anniu li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-box {
+  width: 100%;
+  height: 0.98rem;
+}
+
+footer {
+  width: 100%;
+  height: 0.98rem;
+  background: #15181b;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer a {
+  display: block;
+  width: 33.333333%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+footer a img {
+  float: left;
+  width: 100%;
+  height: 100%;
 }
