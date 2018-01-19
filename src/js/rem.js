@@ -15,6 +15,5 @@
         if (!doc.addEventListener) return;
         win.addEventListener(resizeEvt, recalc, false);
        recalc();
-    })(document, window);
- 
+})(document, window);
 
