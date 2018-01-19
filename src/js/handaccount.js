@@ -8,7 +8,7 @@ $(function () {
     var tops;
     var width;
     var height;
-    $('body').bind('touchstart',function (e) {
+    $('.tiezhi').bind('touchstart',function (e) {
         e.preventDefault();
         dangqian=e.target;
         images=dangqian.parentNode;
