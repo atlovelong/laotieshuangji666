@@ -41,7 +41,7 @@ $(function () {
         even.preventDefault();
         $('.tiezhi').removeClass('yidong-tiezhi');
         $('body').unbind('touchmove');
-        var htmlshangchuan=$('body').html();
+        var htmlshangchuan=$('.baiyang-main').html();
     })
 
 
