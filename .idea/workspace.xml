@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b3a2e20-fb2e-40b3-b7ee-60cc17a4ce3a" name="默认" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/css/personalcenter.css" afterPath="$PROJECT_DIR$/src/css/personalcenter.css" />
-      <change beforePath="$PROJECT_DIR$/src/css/personalcenter.scss" afterPath="$PROJECT_DIR$/src/css/personalcenter.scss" />
-      <change beforePath="$PROJECT_DIR$/src/img/baiyang-geren-wode.png" afterPath="$PROJECT_DIR$/src/img/baiyang-geren-wode.png" />
-      <change beforePath="$PROJECT_DIR$/src/js/handaccount.js" afterPath="$PROJECT_DIR$/src/js/handaccount.js" />
       <change beforePath="$PROJECT_DIR$/template/index/handaccount.html" afterPath="$PROJECT_DIR$/template/index/handaccount.html" />
-      <change beforePath="$PROJECT_DIR$/template/index/my.html" afterPath="$PROJECT_DIR$/template/index/my.html" />
-      <change beforePath="$PROJECT_DIR$/template/index/personalcenter.html" afterPath="$PROJECT_DIR$/template/index/personalcenter.html" />
-      <change beforePath="$PROJECT_DIR$/template/index/zhuye.html" afterPath="$PROJECT_DIR$/template/index/zhuye.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="my.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/index/my.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="398">
@@ -63,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zhuye.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zhuye.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/index/zhuye.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -101,12 +94,12 @@
         <option value="$PROJECT_DIR$/template/index/Bsetbackgrount.html" />
         <option value="$PROJECT_DIR$/src/js/rem.js" />
         <option value="$PROJECT_DIR$/src/js/handaccount.js" />
-        <option value="$PROJECT_DIR$/template/index/handaccount.html" />
         <option value="$PROJECT_DIR$/src/css/handaccount.scss" />
         <option value="$PROJECT_DIR$/src/css/personalcenter.scss" />
         <option value="$PROJECT_DIR$/template/index/personalcenter.html" />
         <option value="$PROJECT_DIR$/template/index/my.html" />
         <option value="$PROJECT_DIR$/template/index/zhuye.html" />
+        <option value="$PROJECT_DIR$/template/index/handaccount.html" />
       </list>
     </option>
   </component>
@@ -253,12 +246,12 @@
       <workItem from="1516148977718" duration="29869000" />
       <workItem from="1516235518016" duration="10685000" />
       <workItem from="1516252330341" duration="13760000" />
-      <workItem from="1516322007886" duration="13536000" />
+      <workItem from="1516322007886" duration="14148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76837000" />
+    <option name="totallyTimeSpent" value="77449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -601,14 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/index/handaccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="137" column="26" lean-forward="false" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/handaccount.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -635,18 +620,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/index/my.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="307" column="34" lean-forward="false" selection-start-line="307" selection-start-column="34" selection-end-line="307" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/index/zhuye.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="593" column="55" lean-forward="false" selection-start-line="593" selection-start-column="55" selection-end-line="593" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/handaccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="135" column="16" lean-forward="true" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="307" column="34" lean-forward="false" selection-start-line="307" selection-start-column="34" selection-end-line="307" selection-end-column="34" />
           <folding />
         </state>
       </provider>
