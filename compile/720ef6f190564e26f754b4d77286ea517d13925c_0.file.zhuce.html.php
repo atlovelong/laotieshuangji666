@@ -1,10 +1,37 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-01-22 08:17:45
+  from "C:\wamp64\www\php\uekapp\template\index\zhuce.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a659e29253b41_65202426',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '720ef6f190564e26f754b4d77286ea517d13925c' => 
+    array (
+      0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\zhuce.html',
+      1 => 1516609064,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a659e29253b41_65202426 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Document</title>
-	<script src="{JS_PATH}rem.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
+>
 </head>
 <style>
 	*{
@@ -14,7 +41,8 @@
 	list-style: none;
 }
     html { 
-   background: url({IMG_PATH}取消2.png) no-repeat center center fixed;
+   background: url(<?php echo IMG_PATH;?>
+取消2.png) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
     -o-background-size: cover;
@@ -237,7 +265,8 @@
     <div class="center first">
 
     <div class="img">
-        <img src="{IMG_PATH}123.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+123.png" alt="">
     </div>
      <div class="eight">+86</div>
         <input type="text" placeholder="请输入手机号" class="text">
@@ -245,13 +274,15 @@
     </div>
     <div class="center">
     <div class="img">
-        <img src="{IMG_PATH}75.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+75.png" alt="">
     </div>
         <input type="password" placeholder="请输入密码">
     </div>
 <div class="center">
     <div class="img">
-        <img src="{IMG_PATH}34.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+34.png" alt="">
     </div>
         <input type="text" placeholder="请输入验证码">
         <div class="right">获取验证码</div>
@@ -268,4 +299,5 @@
 
 <div class="more"><div>更多</div></div>
 </body>
-</html>
+</html><?php }
+}
