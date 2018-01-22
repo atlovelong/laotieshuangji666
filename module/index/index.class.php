@@ -21,6 +21,7 @@ class index
     function inittwo(){
         $this->smarty->display('index/searching.html');
     }
+<<<<<<< HEAD
     function initthree(){
         $this->smarty->display('index/footmark.footmark.html');
     }
@@ -57,4 +58,6 @@ class index
 //    function zhuye(){
 //        $this->smarty->display('index/zhuye.html');
 //    }
+=======
+>>>>>>> a9c82deaa9a342f50f3d884daacec05b9c923036
 }
