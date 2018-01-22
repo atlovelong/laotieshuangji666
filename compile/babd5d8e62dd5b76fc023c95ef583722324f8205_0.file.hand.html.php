@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-21 07:23:59
+/* Smarty version 3.1.30, created on 2018-01-22 02:17:50
   from "C:\wamp64\www\php\uekapp\template\index\hand.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a64400f0d6f56_27406824',
+  'unifunc' => 'content_5a6549ce0ce539_22946639',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'babd5d8e62dd5b76fc023c95ef583722324f8205' => 
     array (
       0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\hand.html',
-      1 => 1516519437,
+      1 => 1516587446,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a64400f0d6f56_27406824 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a6549ce0ce539_22946639 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -106,7 +106,7 @@ body{
 	<div class="img"><img src="<?php echo IMG_PATH;?>
 2 (1).png" alt=""></div>
 	<div class="kong"></div>
-	<a href="searching.html"><div class="bottom"><img src="<?php echo IMG_PATH;?>
+	<a href="index.php?a=inittwo"><div class="bottom"><img src="<?php echo IMG_PATH;?>
 2 (3).png" alt=""></div></a>
 </body>
 </html><?php }

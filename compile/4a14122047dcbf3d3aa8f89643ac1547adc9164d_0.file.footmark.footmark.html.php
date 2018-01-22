@@ -1,10 +1,37 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-01-22 03:02:12
+  from "C:\wamp64\www\php\uekapp\template\index\footmark.footmark.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a655434358c23_28908707',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '4a14122047dcbf3d3aa8f89643ac1547adc9164d' => 
+    array (
+      0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\footmark.footmark.html',
+      1 => 1516590132,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a655434358c23_28908707 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Document</title>
-	<script src="{JS_PATH}rem.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
+>
 </head>
 <style>
 *{
@@ -16,7 +43,7 @@
 body{
 	width: 100%;
 	height: 100%;
-	background: url('../../src/img/1.png') no-repeat cover;
+	background: url('../../src/img/duanyinghua-1.png') no-repeat cover;
 }
 body{
 
@@ -29,12 +56,12 @@ body{
 	}
  .tu{
     	width: 100%;
-    	height: 0.5rem;
+    	height: 0.49rem;
     	position: relative;
     }
   .jian{
   	width: 100%;
-  	height: 0.34rem;
+  	height: 0.32rem;
   	background: rgb(42, 44, 49);
   }
     .word{
@@ -48,18 +75,18 @@ body{
     }
     .kong{
     	width: 100%;
-    	height: 1.27rem;
+    	height: 1.15rem;
     	background: rgb(42, 44, 49);
     }
     .img{
     	width: 100%;
-    	height: 6.8rem;
+    	height: 5.89rem;
     	position: relative;
     }
      
     .konger{
     	width: 100%;
-    	height: 2.21rem;
+    	height: 3.28rem;
     	background: rgb(42, 44, 49);
     }
     /*.bottom{
@@ -72,7 +99,7 @@ body{
         width: 100%;
         height: 0.88rem;
         text-align: center;
-        font-size: 0.44rem;
+        font-size: 0.32rem;
         line-height: 0.88rem;
         background: rgb(255, 221, 31);
         color: rgb(255, 255, 255);
@@ -88,14 +115,17 @@ body{
 </style>
 <body>
 	<div class="top"></div>
-	<div class="tu"><img src="{IMG_PATH}6.png" alt=""></div>
+	<div class="tu"><img src="<?php echo IMG_PATH;?>
+4.png" alt=""></div>
 	<div class="jian"></div>
 	<div class="word">
-	    一大波物资已投放，快来领取你需要的
+	    我的良心活蹦乱跳，你到的城市灯光闪耀
 	</div>
 	<div class="kong"></div>
-	<div class="img"><img src="{IMG_PATH}5.png" alt=""></div>
+	<div class="img"><img src="<?php echo IMG_PATH;?>
+duanyinghua-3.png" alt=""></div>
 	<div class="konger"></div>
-	<a href="index.php?a=initthree"><div class="middle">&gt;</div></a>
+	<a href="index.php?a=login"><div class="middle">开启花笺之旅</div></a>
 </body>
-</html>
+</html><?php }
+}
