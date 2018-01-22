@@ -1,18 +1,42 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.30, created on 2018-01-22 02:26:03
+=======
+<<<<<<< HEAD
+/* Smarty version 3.1.30, created on 2018-01-22 02:26:03
+=======
+/* Smarty version 3.1.30, created on 2018-01-22 02:20:29
+>>>>>>> a9c82deaa9a342f50f3d884daacec05b9c923036
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
   from "C:\wamp64\www\php\uekapp\template\index\searching.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
+<<<<<<< HEAD
   'unifunc' => 'content_5a654bbbc66a93_08721233',
+=======
+<<<<<<< HEAD
+  'unifunc' => 'content_5a654bbbc66a93_08721233',
+=======
+  'unifunc' => 'content_5a654a6d477a62_63735425',
+>>>>>>> a9c82deaa9a342f50f3d884daacec05b9c923036
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0c3547eafbac22e3d0c094dfd446b94c779f4d2a' => 
     array (
       0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\searching.html',
+<<<<<<< HEAD
       1 => 1516587962,
+=======
+<<<<<<< HEAD
+      1 => 1516587962,
+=======
+      1 => 1516587629,
+>>>>>>> a9c82deaa9a342f50f3d884daacec05b9c923036
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
       2 => 'file',
     ),
   ),
@@ -20,7 +44,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_5a654bbbc66a93_08721233 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+<<<<<<< HEAD
+function content_5a654bbbc66a93_08721233 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_5a654a6d477a62_63735425 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> a9c82deaa9a342f50f3d884daacec05b9c923036
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -125,7 +157,15 @@ body{
 	<div class="img"><img src="<?php echo IMG_PATH;?>
 5.png" alt=""></div>
 	<div class="konger"></div>
+<<<<<<< HEAD
 	<a href="index.php?a=initthree"><div class="middle">&gt;</div></a>
+=======
+<<<<<<< HEAD
+	<a href="index.php?a=initthree"><div class="middle">&gt;</div></a>
+=======
+	<a href="footmark.footmark.html"><div class="middle">&gt;</div></a>
+>>>>>>> a9c82deaa9a342f50f3d884daacec05b9c923036
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
 </body>
 </html><?php }
 }

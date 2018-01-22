@@ -82,7 +82,11 @@
 
     div.center {
         width: 5.79rem;
+<<<<<<< HEAD
         height: 0.79rem;
+=======
+        height: 1.04rem;
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
         left: 0;
         top: 0;
         right: 0;
@@ -90,8 +94,11 @@
         margin: auto;
         position: relative;
         margin-bottom: 0.37rem;
+<<<<<<< HEAD
         background: #fff;
         border-radius: 1rem;
+=======
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
         /*  border-radius: 1rem;
           border: 0.15rem solid rgb(255, 255, 255); */
     }
@@ -117,6 +124,7 @@
 
     div.center .text {
         padding-left: 1.3rem;
+<<<<<<< HEAD
     }
 
     /*input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {*/
@@ -126,6 +134,16 @@
 
     .denglu {
         display: block;
+=======
+    }
+
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        /*padding-left: 0.4rem;*/
+        color: rgb(255, 255, 255);
+    }
+
+    .denglu {
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
         width: 5.79rem;
         height: 0.79rem;
         border-radius: 1rem;
@@ -221,6 +239,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+<<<<<<< HEAD
     }
 
     .pic .left .img {
@@ -238,6 +257,55 @@
         position: relative;
 
     }
+=======
+    }
+
+    .pic .left .img {
+        width: 0.54rem;
+        height: 0.44rem;
+        border: none;
+        position: relative;
+
+    }
+
+    .pic .middle .img {
+        width: 0.43rem;
+        height: 0.49rem;
+        border: none;
+        position: relative;
+
+    }
+
+    .pic .right .img {
+        width: 0.45rem;
+        height: 0.45rem;
+        border: none;
+        position: relative;
+
+    }
+
+    .pic .img img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0rem;
+        left: 0rem;
+    }
+
+    .more {
+        width: 100%;
+        height: 0.24rem;
+        margin-bottom: 0.45rem;
+    }
+
+    .more div {
+        width: 0.5rem;
+        height: 0.24rem;
+        font-size: 0.24rem;
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        text-align: center;
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
 
     .pic .right .img {
         width: 0.45rem;
@@ -292,6 +360,7 @@
 <div class="login">
     <div class="left">取消</div>
     <div class="middle" style="text-align: center;">登录</div>
+<<<<<<< HEAD
     <a href="index.php?a=zhuce">
         <div class="right">注册</div>
     </a>
@@ -324,6 +393,36 @@
             <!--<div class="denglu">登录</div>-->
         </div>
     </form>
+=======
+    <a href="zhuce.html">
+        <div class="right">注册</div>
+    </a>
+    <div class="clear"></div>
+</div>
+<section>
+    <div class="center">
+        <div class="img">
+            <img src="{IMG_PATH}123.png" alt="">
+        </div>
+        <div class="tishi" style="width: 100%;height: 100%;background: red;position: absolute;left: 0;top:-100%;display: none;text-align: center;line-height: 1.04rem;color: #fff;font-size: 0.42rem"></div>
+        <input type="text" placeholder="请输入手机号" value="" name="zhanghao" class="user">
+        <div class="line"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="center">
+        <div class="img">
+            <img src="{IMG_PATH}75.png" alt="">
+        </div>
+        <input type="passward" placeholder="请输入密码" value="" name="pass" class="mima">
+        <div class="line"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="center">
+        <div class="denglu">登录</div>
+    </div>
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
 </section>
 <div class="jian">
     <div class="word">忘记密码？</div>
@@ -355,3 +454,19 @@
 </div>
 </body>
 </html>
+<script>
+    $('.denglu').bind('touchend',function () {
+        var zhanghao=$('.user').val();
+        var pass=$('.mima').val();
+        $.ajax({
+            url:`index.php? a=landing&zhanghao=${zhanghao}&pass=${pass}`,
+            data:'JSONP',
+            success:function (obj) {
+                $('.tishi').css('display','block').html(obj);
+                $t=setTimeout(function () {
+                    $('.tishi').css('display','none')
+                },5000)
+            }
+        })
+    })
+</script>

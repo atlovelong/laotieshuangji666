@@ -37,12 +37,17 @@ class index
         $d=new db('indexuser');
         $user=$_REQUEST['zhanghao'];
         $pass=$_REQUEST['pass'];
+<<<<<<< HEAD
         $row=$d->selOne("zhanghao='$user'");
+=======
+        $row=$d->selOne("zhanghao=$user");
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
         if($user!=''){
             if($pass!=''){
                 if ($row){
                     if ($row['pass']===$pass){
                         $obj->set("user",$user);
+<<<<<<< HEAD
                         $this->jump("登录成功","index.php?m=index&a=zhuye");
                     }else{
                         $this->jump("密码错误","index.php?m=index&a=login");
@@ -66,3 +71,25 @@ class index
         $this->smarty->display('index/zhuce.html');
     }
 }
+=======
+                        $this->smarty->display('index/zhuye.html');
+//                $this->jump("登录成功","index.php?a=zhuye");
+                    }else{
+                        echo '密码错误';
+                    }
+                }else{
+                    echo '账号错误';
+                }
+            }else{
+                echo '请输入密码';
+            }
+        }else{
+            echo '请输入账号';
+        }
+        $d->db->close();
+    }
+//    function zhuye(){
+//        $this->smarty->display('index/zhuye.html');
+//    }
+}
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
