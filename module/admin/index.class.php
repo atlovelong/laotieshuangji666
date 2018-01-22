@@ -1,105 +1,73 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: 白杨
- * Date: 2018-01-02
- * Time: 10:32
+ * User: Administrator
+ * Date: 2018/1/2 0002
+ * Time: 上午 11:29
  */
 
-class index
+class index extends admin
 {
-    public $smarty;
-    function __construct()
-    {
-        $this->smarty=new Smarty();
-        $this->smarty->setTemplateDir('template/');
-        $this->smarty->setCompileDir('compile/');
-//        $this->s->setCompileDir()
-    }
     function init(){
-        $this->smarty->display('admin/login.html');
+        $this->s->display("admin/login.html");
     }
     function code(){
-        $c=new code('src/font/POST.TTF');
-        $c->output();
+        $obj=new code();
+        $obj->outcode();
     }
-    function jump($title,$url,$tiao){
-        $this->smarty->assign('title',$title);
-        $this->smarty->assign('url',$url);
-        $this->smarty->assign('tiaozhuan',$tiao);
-        $this->smarty->display('admin/tiaozhuan.html');
-    }
-    function main(){
-        session_start();
-        if(!isset($_SESSION['user'])){
-            $this->jump('请先登陆','index.php?m=admin','点击立即跳转');
-        }
-    }
-    function denglu(){
-        session_start();
-        $user=$_REQUEST['user'];
-        $pass=$_REQUEST['pass'];
-        $code=$_REQUEST['code'];
-        if(strtolower($code)===strtolower($_SESSION['code'])){
-            $db=new db('user');
-            $row=$db->selOne('*',"zhanghao='$user'");
-            if($row){
-                if($row['pass']===$pass || $row=$_SESSION['pass']){
-//                    $this->jump('登陆成功','main.html','点击立即跳转');
-                    $this->smarty->display('admin/main.html');
-                    $_SESSION['user']=$user;
+
+    function verify(){
+        $obj=new session();
+        $d=new db("user");
+        $u=$_REQUEST['user'];
+        $p=$_REQUEST['pass'];
+        $c=$_REQUEST['code'];
+        $row=$d->selOne("zhanghao='$u'");
+        if (strtoupper($c)===strtoupper($obj->get("code"))){
+
+            if ($row){
+                if ($row['pass']===$p){
+                    $obj->set("user",$u);
+                    $this->jump("登录成功","index.php?m=admin&a=main");
                 }else{
-                    $this->jump('密码错误','index.php?m=admin','点击立即返回');
+                    $this->jump("密码错误","admin.php");
+
                 }
             }else{
-                $this->jump('账号不存在','index.php?m=admin','点击立即返回');
+                $this->jump("账号不存在","admin.php");
             }
         }else{
-            $this->jump('验证码错误','index.php?m=admin','点击立即返回');
+            $this->jump("验证码错误","admin.php");
         }
-//        echo $_SESSION['code'];
+        $d->db->close();
     }
-    function tuichu(){
-        session_start();
-        unset($_SESSION['user'],$_SESSION['pass']);
-        if(!isset($_SESSION['user'])){
-            $this->jump('退出成功','index.php?m=admin','点击立即跳转');
-        }
-    }
-    function password(){
-        session_start();
-        $user=$_SESSION['user'];
-        $this->smarty->assign('user',$user);
-        $this->smarty->display('admin/password.html');
-    }
-    function reformpass(){
-        session_start();
-        $zhanghao=$_REQUEST['myname'];
-        $pass=$_REQUEST['pass'];
-        $passtwo=$_REQUEST['passtwo'];
-        $db=new db('user');
-//        $db=new mysqli('localhost','root','','wuif1708');
-//        $db->query('set names utf8');
-        if($pass==$passtwo && $pass!=''){
-//            $sql="update  user  set  pass='$pass' where zhanghao='$zhanghao';";
-//            $result=$db->query($sql);
-//            $row=$db->affected_rows;
-            $row=$db->update('user',"zhanghao=$zhanghao");
-        }else if($pass==''){
-            $this->jump('密码不能为空','index.php?m=admin&a=password','点击立即返回');
-            exit;
+    function main(){
+        $session=new session();
+        if ($session->get("user")){
+            $name=$session->get('user');
+            $this->s->assign("name",$name);
+            $this->s->display("admin/main.html");
         }else{
-            $row=false;
-        }
-
-        if($row){
-            $_SESSION['pass']=$pass;
-            $this->jump('修改成功','index.php?m=admin&a=password','点击跳转');
-        }else{
-            $this->jump('修改失败','index.php?m=admin&a=password','点击立即返回');
+            $this->jump("请先登录","admin.php");
         }
     }
-    function lanmu(){
-        $db=new db('');
+    function exits(){
+        $session=new session();
+        $session->del("user");
+        $session->del("code");
+        $this->jump("退出成功","admin.php");
+    }
+    function passAtr(){
+        $obj=new session();
+        $name=$obj->get('user');
+        $this->s->assign("name",$name);
+        $this->s->display("admin/passatr.html");
+    }
+    function passUpdate(){
+        $u=$_REQUEST['user'];
+        $p=$_REQUEST['pass'];
+        $db=new db("user");
+        $row=$db->atr("pass='$p'","zhanghao='$u'");
+        echo $row;
     }
 }
