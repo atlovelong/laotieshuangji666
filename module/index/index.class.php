@@ -18,4 +18,7 @@ class index
     function init(){
         $this->smarty->display('index/hand.html');
     }
+    function inittwo(){
+        $this->smarty->display('index/searching.html');
+    }
 }

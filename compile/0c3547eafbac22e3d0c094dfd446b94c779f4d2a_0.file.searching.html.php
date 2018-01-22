@@ -1,10 +1,37 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-01-22 02:20:29
+  from "C:\wamp64\www\php\uekapp\template\index\searching.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a654a6d477a62_63735425',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '0c3547eafbac22e3d0c094dfd446b94c779f4d2a' => 
+    array (
+      0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\searching.html',
+      1 => 1516587629,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a654a6d477a62_63735425 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Document</title>
-	<script src="{JS_PATH}rem.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
+>
 </head>
 <style>
 *{
@@ -88,14 +115,17 @@ body{
 </style>
 <body>
 	<div class="top"></div>
-	<div class="tu"><img src="{IMG_PATH}6.png" alt=""></div>
+	<div class="tu"><img src="<?php echo IMG_PATH;?>
+6.png" alt=""></div>
 	<div class="jian"></div>
 	<div class="word">
 	    一大波物资已投放，快来领取你需要的
 	</div>
 	<div class="kong"></div>
-	<div class="img"><img src="{IMG_PATH}5.png" alt=""></div>
+	<div class="img"><img src="<?php echo IMG_PATH;?>
+5.png" alt=""></div>
 	<div class="konger"></div>
 	<a href="footmark.footmark.html"><div class="middle">&gt;</div></a>
 </body>
-</html>
+</html><?php }
+}
