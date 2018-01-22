@@ -15,5 +15,9 @@
         if (!doc.addEventListener) return;
         win.addEventListener(resizeEvt, recalc, false);
        recalc();
+<<<<<<< HEAD
     })(document, window);
+=======
+})(document, window);
+>>>>>>> 94cd7b9078e74c77fa2ee844215b43aba669608c
 
