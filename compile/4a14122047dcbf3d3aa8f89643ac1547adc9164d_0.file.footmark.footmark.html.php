@@ -1,18 +1,42 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.30, created on 2018-01-22 07:28:32
+=======
+<<<<<<< HEAD
+/* Smarty version 3.1.30, created on 2018-01-22 07:28:32
+=======
+/* Smarty version 3.1.30, created on 2018-01-22 03:02:12
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
+>>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
   from "C:\wamp64\www\php\uekapp\template\index\footmark.footmark.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
+<<<<<<< HEAD
   'unifunc' => 'content_5a6592a0c55213_98197136',
+=======
+<<<<<<< HEAD
+  'unifunc' => 'content_5a6592a0c55213_98197136',
+=======
+  'unifunc' => 'content_5a655434358c23_28908707',
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
+>>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4a14122047dcbf3d3aa8f89643ac1547adc9164d' => 
     array (
       0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\footmark.footmark.html',
+<<<<<<< HEAD
       1 => 1516606109,
+=======
+<<<<<<< HEAD
+      1 => 1516606109,
+=======
+      1 => 1516590132,
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
+>>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
       2 => 'file',
     ),
   ),
@@ -20,7 +44,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_5a6592a0c55213_98197136 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+<<<<<<< HEAD
+function content_5a6592a0c55213_98197136 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_5a655434358c23_28908707 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
+>>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
 ?>
 <!DOCTYPE html>
 <html lang="en">

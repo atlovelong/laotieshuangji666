@@ -37,7 +37,11 @@ class index
         $d=new db('indexuser');
         $user=$_REQUEST['zhanghao'];
         $pass=$_REQUEST['pass'];
+<<<<<<< HEAD
         $row=$d->selOne("zhanghao='$user'");
+=======
+        $row=$d->selOne("zhanghao=$user");
+>>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
         if($user!=''){
             if($pass!=''){
                 if ($row){
@@ -65,4 +69,8 @@ class index
     function zhuce(){
         $this->smarty->display('index/zhuce.html');
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
