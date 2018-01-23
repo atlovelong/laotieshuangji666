@@ -8,11 +8,11 @@
 
 class db
 {
-    private $host="localhost";
-    private $user="root";
-    private $pass="";
-    private $dbname="1708qiyezhan";
-    private $port='3306';
+    private $host="sqld.duapp.com";
+    private $user="728fd5ef6c7d498c8905f72564f01f89";
+    private $pass="3f2b29baf40b461a976c4b67ca95788e";
+    private $dbname="lWYXJzOxxATItEaCHSYG";
+    private $port='4050';
     public $db="";
     private $table="";
     function __construct($table)
