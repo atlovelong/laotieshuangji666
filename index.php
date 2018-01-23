@@ -22,6 +22,7 @@ define('JS_PATH',WEB_PATH.'src/js/');
 define('CSS_PATH',WEB_PATH.'src/css/');
 define('IMG_PATH',WEB_PATH.'src/img/');
 define('FONT_PATH',WEB_PATH.'src/font/');
+define('ICON_PATH',WEB_PATH.'src/iconfont/');
 //var_dump(ROOT_PATH);
 include_once LIBS_PATH.'router.class.php';
 require_once LIBS_PATH.'code.php';

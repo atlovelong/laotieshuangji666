@@ -65,4 +65,19 @@ class index
     function zhuce(){
         $this->smarty->display('index/zhuce.html');
     }
+    function my(){
+        $this->smarty->display('index/my.html');
+    }
+    function personalcenter(){
+        $this->smarty->display('index/personalcenter.html');
+    }
+    function record(){
+        $this->smarty->display('index/record.html');
+    }
+    function search(){
+        $this->smarty->display('index/search.html');
+    }
+//    function record(){
+//        $this->smarty->display('index/record.html');
+//    }
 }
