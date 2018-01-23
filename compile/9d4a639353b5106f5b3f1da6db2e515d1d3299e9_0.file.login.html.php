@@ -1,11 +1,41 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-01-22 08:16:01
+  from "C:\wamp64\www\php\uekapp\template\index\login.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a659dc15db318_76625784',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '9d4a639353b5106f5b3f1da6db2e515d1d3299e9' => 
+    array (
+      0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\login.html',
+      1 => 1516608961,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a659dc15db318_76625784 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Document</title>
-    <script src="{JS_PATH}rem.js"></script>
-    <script src="{JS_PATH}jquery.js"></script>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+jquery.js"><?php echo '</script'; ?>
+>
 </head>
 <style>
     * {
@@ -16,7 +46,8 @@
     }
 
     html {
-        background: url({IMG_PATH}取消.png) no-repeat center center fixed;
+        background: url(<?php echo IMG_PATH;?>
+取消.png) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -119,10 +150,7 @@
         padding-left: 1.3rem;
     }
 
-    /*input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {*/
-    /*!*padding-left: 0.4rem;*!*/
-    /*color: rgb(255, 255, 255);*/
-    /*}*/
+    /*input::-webkit-input-placeholder, textarea::-webkit-input-placeholder */
 
     .denglu {
         display: block;
@@ -300,7 +328,8 @@
     <form action="index.php?a=landing" method="post">
         <div class="center">
             <div class="img">
-                <img src="{IMG_PATH}123.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+123.png" alt="">
             </div>
             <div class="tishi"></div>
             <input type="text" placeholder="请输入手机号" value="" name="zhanghao" class="user">
@@ -310,7 +339,8 @@
 
         <div class="center">
             <div class="img">
-                <img src="{IMG_PATH}75.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+75.png" alt="">
             </div>
             <input type="password" placeholder="请输入密码" value="" name="pass" class="mima">
             <div class="line"></div>
@@ -336,17 +366,20 @@
 <div class="pic">
     <div class="left">
         <div class="img">
-            <img src="{IMG_PATH}25.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+25.png" alt="">
         </div>
     </div>
     <div class="middle">
         <div class="img">
-            <img src="{IMG_PATH}26.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+26.png" alt="">
         </div>
     </div>
     <div class="right">
         <div class="img">
-            <img src="{IMG_PATH}24.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+24.png" alt="">
         </div>
     </div>
 </div>
@@ -354,4 +387,5 @@
     <div>更多</div>
 </div>
 </body>
-</html>
+</html><?php }
+}
