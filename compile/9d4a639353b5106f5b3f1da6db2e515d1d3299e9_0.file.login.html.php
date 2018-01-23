@@ -1,42 +1,18 @@
 <?php
-<<<<<<< HEAD
-/* Smarty version 3.1.30, created on 2018-01-22 08:16:01
-=======
-<<<<<<< HEAD
-/* Smarty version 3.1.30, created on 2018-01-22 08:16:01
-=======
-/* Smarty version 3.1.30, created on 2018-01-22 05:04:21
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
+/* Smarty version 3.1.30, created on 2018-01-23 02:02:41
   from "C:\wamp64\www\php\uekapp\template\index\login.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-<<<<<<< HEAD
-  'unifunc' => 'content_5a659dc15db318_76625784',
-=======
-<<<<<<< HEAD
-  'unifunc' => 'content_5a659dc15db318_76625784',
-=======
-  'unifunc' => 'content_5a6570d5ba4ef7_47568410',
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
+  'unifunc' => 'content_5a6697c110c983_77900026',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9d4a639353b5106f5b3f1da6db2e515d1d3299e9' => 
     array (
       0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\login.html',
-<<<<<<< HEAD
-      1 => 1516608961,
-=======
-<<<<<<< HEAD
-      1 => 1516608961,
-=======
-      1 => 1516597461,
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
+      1 => 1516672213,
       2 => 'file',
     ),
   ),
@@ -44,15 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-<<<<<<< HEAD
-function content_5a659dc15db318_76625784 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-<<<<<<< HEAD
-function content_5a659dc15db318_76625784 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_5a6570d5ba4ef7_47568410 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
+function content_5a6697c110c983_77900026 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -145,15 +113,7 @@ jquery.js"><?php echo '</script'; ?>
 
     div.center {
         width: 5.79rem;
-<<<<<<< HEAD
         height: 0.79rem;
-=======
-<<<<<<< HEAD
-        height: 0.79rem;
-=======
-        height: 1.04rem;
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
         left: 0;
         top: 0;
         right: 0;
@@ -161,16 +121,8 @@ jquery.js"><?php echo '</script'; ?>
         margin: auto;
         position: relative;
         margin-bottom: 0.37rem;
-<<<<<<< HEAD
         background: #fff;
         border-radius: 1rem;
-=======
-<<<<<<< HEAD
-        background: #fff;
-        border-radius: 1rem;
-=======
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
         /*  border-radius: 1rem;
           border: 0.15rem solid rgb(255, 255, 255); */
     }
@@ -198,25 +150,10 @@ jquery.js"><?php echo '</script'; ?>
         padding-left: 1.3rem;
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
     /*input::-webkit-input-placeholder, textarea::-webkit-input-placeholder */
 
     .denglu {
         display: block;
-<<<<<<< HEAD
-=======
-=======
-    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-        /*padding-left: 0.4rem;*/
-        color: rgb(255, 255, 255);
-    }
-
-    .denglu {
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
         width: 5.79rem;
         height: 0.79rem;
         border-radius: 1rem;
@@ -361,10 +298,6 @@ jquery.js"><?php echo '</script'; ?>
         text-align: center;
 
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
 
     .tishi {
         width: 100%;
@@ -379,11 +312,6 @@ jquery.js"><?php echo '</script'; ?>
         color: #fff;
         font-size: 0.42rem;
     }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
 </style>
 <body>
 
@@ -392,10 +320,6 @@ jquery.js"><?php echo '</script'; ?>
 <div class="login">
     <div class="left">取消</div>
     <div class="middle" style="text-align: center;">登录</div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
     <a href="index.php?a=zhuce">
         <div class="right">注册</div>
     </a>
@@ -430,41 +354,6 @@ jquery.js"><?php echo '</script'; ?>
             <!--<div class="denglu">登录</div>-->
         </div>
     </form>
-<<<<<<< HEAD
-=======
-=======
-    <a href="zhuce.html">
-        <div class="right">注册</div>
-    </a>
-    <div class="clear"></div>
-</div>
-<section>
-    <div class="center">
-        <div class="img">
-            <img src="<?php echo IMG_PATH;?>
-123.png" alt="">
-        </div>
-        <div class="tishi" style="width: 100%;height: 100%;background: red;position: absolute;left: 0;top:-100%;display: none;text-align: center;line-height: 1.04rem;color: #fff;font-size: 0.42rem"></div>
-        <input type="text" placeholder="请输入手机号" value="" name="zhanghao" class="user">
-        <div class="line"></div>
-        <div class="right"></div>
-    </div>
-
-    <div class="center">
-        <div class="img">
-            <img src="<?php echo IMG_PATH;?>
-75.png" alt="">
-        </div>
-        <input type="passward" placeholder="请输入密码" value="" name="pass" class="mima">
-        <div class="line"></div>
-        <div class="right"></div>
-    </div>
-
-    <div class="center">
-        <div class="denglu">登录</div>
-    </div>
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
 </section>
 <div class="jian">
     <div class="word">忘记密码？</div>
@@ -498,32 +387,6 @@ jquery.js"><?php echo '</script'; ?>
     <div>更多</div>
 </div>
 </body>
-<<<<<<< HEAD
-</html><?php }
-=======
-<<<<<<< HEAD
-</html><?php }
-=======
 </html>
-<?php echo '<script'; ?>
->
-    $('.denglu').bind('touchend',function () {
-        var zhanghao=$('.user').val();
-        var pass=$('.mima').val();
-        console.log(zhanghao,pass)
-        // $.ajax({
-        //     url:"index.php? a=landing&zhanghao=1234&pass=1234",
-        //     data:'JSONP',
-        //     success:function (obj) {
-        //         $('.tishi').css('display','block').html(obj);
-        //         $t=setTimeout(function () {
-        //             $('.tishi').css('display','none')
-        //         },5000)
-        //     }
-        // })
-    })
-<?php echo '</script'; ?>
-><?php }
->>>>>>> 31ac2265697ea89a31e7cd6796df0939fd345664
->>>>>>> c7ad79ec3c17564003d94fa25b8e8b369bc41ddb
+<?php }
 }

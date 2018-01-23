@@ -1,0 +1,434 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-01-23 02:04:03
+  from "C:\wamp64\www\php\uekapp\template\index\record.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a669813856f47_76910761',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'ed5ca10ed0b8fe485a0571253db7d9499674e246' => 
+    array (
+      0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\record.html',
+      1 => 1516672213,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a669813856f47_76910761 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="<?php echo ICON_PATH;?>
+iconfont.css">
+</head>
+<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
+>
+<style>
+    *{
+        margin:0;
+        list-style: none;
+        padding:0;
+        text-decoration: none;
+    }
+    body{
+        background:#2a2c31;
+    }
+    header{
+        width: 100%;
+        height: 0.88rem;
+        background:#FFDD1F;
+    }
+    div.h-left{
+        width:0.55rem;
+        height:0.55rem;
+        position: absolute;
+        left:0.14rem;
+        top:0.19rem;
+        text-align: center;
+        line-height: 0.58rem;
+    }
+    div.h-right{
+        height: 0.88rem;
+        font-size: 0.3rem;
+        color: white;
+        text-align: center;
+        line-height: 0.88rem;
+    }
+    section{
+        width: 100%;
+        height: 1.04rem;
+        background: #2a2c31;
+    }
+    div.center{
+        width: 70%;
+        height:1.04rem;
+        left:0;
+        top:0;
+        right: 0;
+        bottom:0;
+        margin: auto;
+        position: relative;
+    }
+    div.center input{
+        display: block;
+        width: 100%;
+        height: 0.6rem;
+        border-radius: 0.6rem;
+        position: absolute;
+        left: 0;
+        top:0;
+        bottom:0;
+        right:0;
+        margin:auto;
+        outline: none;
+        border:1.5px solid #FEE55B;
+        padding-left: 0.4rem;
+        box-sizing: border-box;
+    }
+    div.line{
+        width:0.04rem;
+        height:0.24rem;
+        background: #FFDD1F;
+        position: absolute;
+        top:0;
+        bottom:0;
+        margin-top: auto;
+        margin-bottom: auto;
+        left:0.2rem;
+    }
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        color:    #FEE55B;
+    }
+    div.right{
+        width:0.4rem;
+        height:0.4rem;
+        border-radius: 0.4rem;
+        background: #FFDD1F;
+        position: absolute;
+        top:0;
+        bottom:0;
+        margin-top: auto;
+        margin-bottom: auto;
+        right:0.15rem;
+    }
+    nav{
+        width: 100%;
+        height:5.0rem;
+        background:#2e3439;
+        margin-bottom: 0.24rem;
+    }
+    div.top{
+          width: 100%;
+          height:1.0rem;
+      }
+    div.top img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    div.tu{
+        width: 100%;
+        height:3.0rem;
+        background: #0085d0;
+    }
+    div.tu img{
+        width: 100%;
+        height:3.0rem;
+        display: block;
+    }
+    div.comment{
+        width: 100%;
+        height:0.98rem;
+        background: #2e3439;
+    }
+    div.zuo{
+        width: 0.6rem;
+        height:0.68rem;
+
+        position: absolute;
+        margin-left:0.24rem;
+        margin-top: 0.16rem;
+    }
+    div.word{
+        height:0.5rem;
+        position: absolute;
+        margin-left:1.0rem;
+        margin-top: 0.24rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size:0.23rem ;
+    }
+      div.s1 {
+          color:#FFDD1F ;
+          font-weight: bold;
+      }
+      div.s2{
+        color:#e0e1e1;
+        font-weight: bold;
+    }
+    div.you{
+        height: 0.5rem;
+        margin-top: 0.25rem;
+        float: right;
+        margin-right: 0.25rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+    }
+    div.shang{
+        font-size:0.23rem ;
+        color:#ffffff;
+        font-weight: bold;
+    }
+    div.you img{
+        display: block;
+        width: 0.14rem;
+        height: 0.2rem;
+        position: absolute;
+        top: 0;
+        left: 0.1rem;
+    }
+    div.xia{
+        font-size:0.23rem ;
+        color:#acaeaf;
+        font-weight: bold;
+    }
+    div.zan{
+        width: 0.74rem;
+        height:100%;
+        font-size: 0.3rem;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.zan img{
+        display: block;
+        width:0.4rem;
+        height:0.4rem;
+    }
+    .comment .person{
+        height:100%;
+        display: flex;
+        align-items: center;
+        float: left;
+    }
+    .comment .person .head{
+        width:0.5rem;
+        height:0.5rem;
+        border-radius: 50%;
+    }
+    .head img{
+        display: block;
+        width:100%;
+        height:100%;
+    }
+    .comment .count{
+        height:100%;
+        text-align: center;
+        line-height: 0.98rem;
+        float: left;
+        font-size: 0.3rem;
+        margin-left: 0.1rem;
+        color: white;
+    }
+    div.evaluate{
+        height:100%;
+        display: flex;
+        align-items: center;
+        float: right;
+    }
+    .evaluate .p{
+        width:0.4rem;
+        height:0.4rem;
+    }
+    div.evaluate .shu{
+        height:100%;
+        font-size: 0.3rem;
+        text-align: center;
+        line-height: 0.98rem;
+        margin-left: 0.14rem;
+        color: white;
+    }
+    div.evaluate .x{
+        width:0.4rem;
+        height:0.4rem;
+        margin-left: 0.25rem;
+        margin-right: 0.22rem;
+    }
+    .p img{
+        display: block;
+        width:100%;
+        height:100%;
+    }
+    .x img{
+        display: block;
+        width:100%;
+        height:100%;
+    }
+    div.h-left a {
+        display: block;
+        width: 0.55rem;
+        height: 0.55rem;
+        background: #ffffff;
+        border-radius: 0.55rem;
+        color:#FAD211;
+    }
+</style>
+<body>
+  <header>
+      <div class="h-left">
+          <a href="index.php?a=zhuye" class="icon iconfont">
+              &#xe680;
+          </a>
+      </div>
+      <div class="h-right">
+          手账
+      </div>
+  </header>
+<section>
+    <div class="center">
+        <input type="text" placeholder="搜索城市/景点">
+        <div class="line"></div>
+        <div class="right"></div>
+    </div>
+</section>
+<nav>
+<div class="top">
+    <div class="zuo">
+        <img src="<?php echo IMG_PATH;?>
+1.png" alt="">
+    </div>
+    <div class="word">
+      <div class="s1">牧野</div>
+        <div class="s2">在希望的田野上</div>
+    </div>
+    <div class="you">
+        <div class="shang"><img src="<?php echo IMG_PATH;?>
+lywz.png" alt="">广州</div>
+        <div class="xia">2小时前</div>
+    </div>
+</div>
+<div class="tu"><img src="<?php echo IMG_PATH;?>
+tu1.png" alt=""></div>
+    <div class="comment">
+        <div class="zan"><img src="<?php echo IMG_PATH;?>
+zan.png" alt=""></div>
+        <div class="person">
+            <div class="head"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
+            <div class="head"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
+            <div class="head"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
+        </div>
+        <div class="count">+3</div>
+        <div class="evaluate">
+            <div class="p"><img src="<?php echo IMG_PATH;?>
+pin.png" alt=""></div>
+            <div class="shu">+5</div>
+            <div class="x"><img src="<?php echo IMG_PATH;?>
+fen.png" alt=""></div>
+        </div>
+    </div>
+</nav>
+  <nav>
+      <div class="top">
+          <div class="zuo">
+              <img src="<?php echo IMG_PATH;?>
+2.png" alt="">
+          </div>
+          <div class="word">
+              <div class="s1">牧野</div>
+              <div class="s2">在希望的田野上</div>
+          </div>
+          <div class="you">
+              <div class="shang"><img src="<?php echo IMG_PATH;?>
+lywz.png" alt="">广州</div>
+              <div class="xia">2小时前</div>
+          </div>
+      </div>
+      <div class="tu"><img src="<?php echo IMG_PATH;?>
+tu2.png" alt=""></div>
+      <div class="comment">
+          <div class="zan"><img src="<?php echo IMG_PATH;?>
+zan.png" alt=""></div>
+          <div class="person">
+              <div class="head"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
+              <div class="head"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
+              <div class="head"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
+          </div>
+          <div class="count">+3</div>
+          <div class="evaluate">
+              <div class="p"><img src="<?php echo IMG_PATH;?>
+pin.png" alt=""></div>
+              <div class="shu">+5</div>
+              <div class="x"><img src="<?php echo IMG_PATH;?>
+fen.png" alt=""></div>
+          </div>
+      </div>
+  </nav>
+  <nav>
+      <div class="top">
+          <div class="zuo">
+              <img src="<?php echo IMG_PATH;?>
+3.png" alt="">
+          </div>
+          <div class="word">
+              <div class="s1">牧野</div>
+              <div class="s2">在希望的田野上</div>
+          </div>
+          <div class="you">
+
+              <div class="shang"><img src="<?php echo IMG_PATH;?>
+lywz.png" alt="">广州</div>
+              <div class="xia">2小时前</div>
+          </div>
+      </div>
+      <div class="tu"><img src="<?php echo IMG_PATH;?>
+tu3.png" alt=""></div>
+      <div class="comment">
+          <div class="zan"><img src="<?php echo IMG_PATH;?>
+zan.png" alt=""></div>
+          <div class="person">
+              <div class="head"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
+              <div class="head"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
+              <div class="head"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
+          </div>
+          <div class="count">+3</div>
+          <div class="evaluate">
+              <div class="p"><img src="<?php echo IMG_PATH;?>
+pin.png" alt=""></div>
+              <div class="shu">+5</div>
+              <div class="x"><img src="<?php echo IMG_PATH;?>
+fen.png" alt=""></div>
+          </div>
+      </div>
+  </nav>
+</body>
+</html>
+<?php }
+}

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-22 08:07:10
+/* Smarty version 3.1.30, created on 2018-01-23 02:18:12
   from "C:\wamp64\www\php\uekapp\template\index\zhuye.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a659bae5c91a1_47447958',
+  'unifunc' => 'content_5a669b64bdfa89_01830040',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '77238a9d3b70d5eb020d352c37e1c6f9617a452a' => 
     array (
       0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\zhuye.html',
-      1 => 1516586164,
+      1 => 1516673813,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a659bae5c91a1_47447958 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a669b64bdfa89_01830040 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -29,15 +29,19 @@ function content_5a659bae5c91a1_47447958 (Smarty_Internal_Template $_smarty_tpl)
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../src/css/swiper.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+swiper.css">
     <?php echo '<script'; ?>
- src="../../src/js/rem.js"><?php echo '</script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="../../src/js/jquery.js"><?php echo '</script'; ?>
+ src="<?php echo JS_PATH;?>
+jquery.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="../../src/js/swiper.js"><?php echo '</script'; ?>
+ src="<?php echo JS_PATH;?>
+swiper.js"><?php echo '</script'; ?>
 >
     <style>
         *{
@@ -454,24 +458,33 @@ function content_5a659bae5c91a1_47447958 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
     <header>
-        <div class="h-left">南京<img src="../../src/img/xuan.png" alt=""></div>
+        <div class="h-left">南京<img src="<?php echo IMG_PATH;?>
+xuan.png" alt=""></div>
         <div class="h-center">
             <input type="text" placeholder="搜索城市/景点">
             <div class="line"></div>
-            <a href=""><img src="../../src/img/serch.png" alt=""></a>
+            <a href=""><img src="<?php echo IMG_PATH;?>
+serch.png" alt=""></a>
         </div>
-        <div class="h-right">签到&nbsp;<img src="../../src/img/qian.png" alt=""></div>
+        <div class="h-right">签到&nbsp;<img src="<?php echo IMG_PATH;?>
+qian.png" alt=""></div>
     </header>
     <div class="sanjiao"></div>
     <div class="swiper-container banner">
 
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="../../src/img/content.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../../src/img/content.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../../src/img/content.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../../src/img/content.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../../src/img/content.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../../src/img/content.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="<?php echo IMG_PATH;?>
+content.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="<?php echo IMG_PATH;?>
+content.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="<?php echo IMG_PATH;?>
+content.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="<?php echo IMG_PATH;?>
+content.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="<?php echo IMG_PATH;?>
+content.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="<?php echo IMG_PATH;?>
+content.jpg" alt=""></div>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
@@ -479,19 +492,23 @@ function content_5a659bae5c91a1_47447958 (Smarty_Internal_Template $_smarty_tpl)
     <section class="nvc">
         <ul>
             <li>
-                <a href="record.html"><img src="../../src/img/shou.png" alt=""></a>
+                <a href="index.php?a=record"><img src="<?php echo IMG_PATH;?>
+shou.png" alt=""></a>
                 <div class="word">手账</div>
             </li>
             <li>
-                <a href=""><img src="../../src/img/shi.png" alt=""></a>
+                <a href=""><img src="<?php echo IMG_PATH;?>
+shi.png" alt=""></a>
                 <div class="word">视频</div>
             </li>
             <li>
-                <a href=""><img src="../../src/img/yin.png" alt=""></a>
+                <a href=""><img src="<?php echo IMG_PATH;?>
+yin.png" alt=""></a>
                 <div class="word">音频</div>
             </li>
             <li>
-                <a href=""><img src="../../src/img/wen.png" alt=""></a>
+                <a href=""><img src="<?php echo IMG_PATH;?>
+wen.png" alt=""></a>
                 <div class="word">软文</div>
             </li>
         </ul>
@@ -500,128 +517,166 @@ function content_5a659bae5c91a1_47447958 (Smarty_Internal_Template $_smarty_tpl)
     <section class="first-body">
         <div class="brief">
             <div class="people">
-                <div class="tou"><img src="../../src/img/1.png" alt=""></div>
+                <div class="tou"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
             </div>
             <div class="describe">
                 <div class="pol">牧业</div>
                 <div class="design">在希望的田野上</div>
             </div>
             <div class="position">
-                <div class="po-top"><img src="../../src/img/wei.png" alt="">南京</div>
+                <div class="po-top"><img src="<?php echo IMG_PATH;?>
+wei.png" alt="">南京</div>
                 <div class="po-bottom">2小时前</div>
             </div>
         </div>
-        <div class="content"><img src="../../src/img/content.jpg" alt=""></div>
+        <div class="content"><img src="<?php echo IMG_PATH;?>
+content.jpg" alt=""></div>
         <div class="comment">
-            <div class="zan"><img src="../../src/img/zan.png" alt=""></div>
+            <div class="zan"><img src="<?php echo IMG_PATH;?>
+zan.png" alt=""></div>
             <div class="person">
-                <div class="head"><img src="../../src/img/1.png" alt=""></div>
-                <div class="head"><img src="../../src/img/2.png" alt=""></div>
-                <div class="head"><img src="../../src/img/3.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
             </div>
             <div class="count">+3</div>
             <div class="evaluate">
-                <div class="p"><img src="../../src/img/pin.png" alt=""></div>
+                <div class="p"><img src="<?php echo IMG_PATH;?>
+pin.png" alt=""></div>
                 <div class="shu">+5</div>
-                <div class="x"><img src="../../src/img/fen.png" alt=""></div>
+                <div class="x"><img src="<?php echo IMG_PATH;?>
+fen.png" alt=""></div>
             </div>
         </div>
     </section>
     <section class="four-body">
         <div class="brief">
             <div class="people">
-                <div class="tou"><img src="../../src/img/2.png" alt=""></div>
+                <div class="tou"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
             </div>
             <div class="describe">
                 <div class="pol">吃·EAT</div>
                 <div class="design">吃饭，睡觉，打豆豆</div>
             </div>
             <div class="position">
-                <div class="po-top"><img src="../../src/img/wei.png" alt="">南京</div>
+                <div class="po-top"><img src="<?php echo IMG_PATH;?>
+wei.png" alt="">南京</div>
                 <div class="po-bottom">2小时前</div>
             </div>
         </div>
-        <div class="content"><img src="../../src/img/content.jpg" alt=""></div>
+        <div class="content"><img src="<?php echo IMG_PATH;?>
+content.jpg" alt=""></div>
         <div class="comment">
-            <div class="zan"><img src="../../src/img/zan.png" alt=""></div>
+            <div class="zan"><img src="<?php echo IMG_PATH;?>
+zan.png" alt=""></div>
             <div class="person">
-                <div class="head"><img src="../../src/img/1.png" alt=""></div>
-                <div class="head"><img src="../../src/img/2.png" alt=""></div>
-                <div class="head"><img src="../../src/img/3.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
             </div>
             <div class="count">+3</div>
             <div class="evaluate">
-                <div class="p"><img src="../../src/img/pin.png" alt=""></div>
+                <div class="p"><img src="<?php echo IMG_PATH;?>
+pin.png" alt=""></div>
                 <div class="shu">+5</div>
-                <div class="x"><img src="../../src/img/fen.png" alt=""></div>
+                <div class="x"><img src="<?php echo IMG_PATH;?>
+fen.png" alt=""></div>
             </div>
         </div>
     </section>
     <section class="second-body">
         <div class="brief">
             <div class="people">
-                <div class="tou"><img src="../../src/img/3.png" alt=""></div>
+                <div class="tou"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
             </div>
             <div class="describe">
                 <div class="pol">小耳朵</div>
                 <div class="design">聆听世界的声音</div>
             </div>
             <div class="position">
-                <div class="po-top"><img src="../../src/img/wei.png" alt="">南京</div>
+                <div class="po-top"><img src="<?php echo IMG_PATH;?>
+wei.png" alt="">南京</div>
                 <div class="po-bottom">2小时前</div>
             </div>
         </div>
-        <div class="content2"><img src="../../src/img/yinyue.png" alt=""></audio></div>
+        <div class="content2"><img src="<?php echo IMG_PATH;?>
+yinyue.png" alt=""></audio></div>
         <div class="comment">
-            <div class="zan"><img src="../../src/img/zan.png" alt=""></div>
+            <div class="zan"><img src="<?php echo IMG_PATH;?>
+zan.png" alt=""></div>
             <div class="person">
-                <div class="head"><img src="../../src/img/1.png" alt=""></div>
-                <div class="head"><img src="../../src/img/2.png" alt=""></div>
-                <div class="head"><img src="../../src/img/3.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
             </div>
             <div class="count">+3</div>
             <div class="evaluate">
-                <div class="p"><img src="../../src/img/pin.png" alt=""></div>
+                <div class="p"><img src="<?php echo IMG_PATH;?>
+pin.png" alt=""></div>
                 <div class="shu">+5</div>
-                <div class="x"><img src="../../src/img/fen.png" alt=""></div>
+                <div class="x"><img src="<?php echo IMG_PATH;?>
+fen.png" alt=""></div>
             </div>
         </div>
     </section>
     <section class="third-body">
         <div class="brief">
             <div class="people">
-                <div class="tou"><img src="../../src/img/1.png" alt=""></div>
+                <div class="tou"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
             </div>
             <div class="describe">
                 <div class="pol">希冀</div>
                 <div class="design">所走就走的一生</div>
             </div>
             <div class="position">
-                <div class="po-top"><img src="../../src/img/wei.png" alt="">南京</div>
+                <div class="po-top"><img src="<?php echo IMG_PATH;?>
+wei.png" alt="">南京</div>
                 <div class="po-bottom">2小时前</div>
             </div>
         </div>
         <div class="content3">有人说：“人生至少要有两次冲动：一场奋不顾身的爱情和一段走就走的旅行。”<br>
             我想在每个人的青春年岁里，都曾有过一段关于旅行的憧憬，一段说走就走的旅行。可是在现实里，因为种种的原因，这个美好的希冀变成了每个午夜梦回</div>
         <div class="comment">
-            <div class="zan"><img src="../../src/img/zan.png" alt=""></div>
+            <div class="zan"><img src="<?php echo IMG_PATH;?>
+zan.png" alt=""></div>
             <div class="person">
-                <div class="head"><img src="../../src/img/1.png" alt=""></div>
-                <div class="head"><img src="../../src/img/2.png" alt=""></div>
-                <div class="head"><img src="../../src/img/3.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
+                <div class="head"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
             </div>
             <div class="count">+3</div>
             <div class="evaluate">
-                <div class="p"><img src="../../src/img/pin.png" alt=""></div>
+                <div class="p"><img src="<?php echo IMG_PATH;?>
+pin.png" alt=""></div>
                 <div class="shu">+5</div>
-                <div class="x"><img src="../../src/img/fen.png" alt=""></div>
+                <div class="x"><img src="<?php echo IMG_PATH;?>
+fen.png" alt=""></div>
             </div>
         </div>
     </section>
     <footer>
-        <div class="left"><a href=""><img src="../../src/img/f1.png" alt=""></a></div>
-        <div class="center"><a href="my.html"><img src="../../src/img/f2.png" alt=""></a></div>
-        <div class="right"><a href="personalcenter.html"><img src="../../src/img/f3.png" alt=""></a></div>
+        <div class="left"><a href=""><img src="<?php echo IMG_PATH;?>
+f1.png" alt=""></a></div>
+        <div class="center"><a href="index.php?a=my"><img src="<?php echo IMG_PATH;?>
+f2.png" alt=""></a></div>
+        <div class="right"><a href="index.php?a=personalcenter"><img src="<?php echo IMG_PATH;?>
+f3.png" alt=""></a></div>
     </footer>
 </body>
 </html>
@@ -658,7 +713,7 @@ function content_5a659bae5c91a1_47447958 (Smarty_Internal_Template $_smarty_tpl)
     });
     console.log($("input"));
     $("input").focus(function () {
-        location.href="search.html";
+        location.href="index.php?a=search";
     });
 <?php echo '</script'; ?>
 >

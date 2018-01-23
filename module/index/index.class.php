@@ -77,7 +77,7 @@ class index
     function search(){
         $this->smarty->display('index/search.html');
     }
-//    function record(){
-//        $this->smarty->display('index/record.html');
-//    }
+    function handaccount(){
+        $this->smarty->display('index/handaccount.html');
+    }
 }
