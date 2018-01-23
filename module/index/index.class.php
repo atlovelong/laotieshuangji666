@@ -80,4 +80,15 @@ class index
     function handaccount(){
         $this->smarty->display('index/handaccount.html');
     }
+    function success(){
+        $this->smarty->display('index/success.html');
+    }
+    function look(){
+        $this->smarty->display('index/look.html');
+    }
+    function comment(){
+        $this->smarty->display('index/comment.html');
+    }
+    
+
 }
