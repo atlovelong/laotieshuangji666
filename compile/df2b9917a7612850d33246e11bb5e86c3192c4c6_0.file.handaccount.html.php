@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-23 02:28:05
+/* Smarty version 3.1.30, created on 2018-01-23 03:12:53
   from "C:\wamp64\www\php\uekapp\template\index\handaccount.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a669db525dbc6_35696030',
+  'unifunc' => 'content_5a66a835f3fbf8_96640533',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'df2b9917a7612850d33246e11bb5e86c3192c4c6' => 
     array (
       0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\handaccount.html',
-      1 => 1516672213,
+      1 => 1516677008,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a669db525dbc6_35696030 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a66a835f3fbf8_96640533 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -30,45 +30,54 @@ function content_5a669db525dbc6_35696030 (Smarty_Internal_Template $_smarty_tpl)
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="../../src/css/handaccount.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+handaccount.css">
     <!--<link rel="stylesheet" href="../../src/css/base.css">-->
-    <link rel="stylesheet" href="../../src/iconfont/iconfont.css">
+    <link rel="stylesheet" href="<?php echo ICON_PATH;?>
+iconfont.css">
     <?php echo '<script'; ?>
- src="../../src/js/rem.js"><?php echo '</script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="../../src/js/jquery.min.js" type="text/javascript" charset="utf-8"><?php echo '</script'; ?>
+ src="<?php echo JS_PATH;?>
+jquery.min.js" type="text/javascript" charset="utf-8"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="../../src/js/handaccount.js"><?php echo '</script'; ?>
+ src="<?php echo JS_PATH;?>
+handaccount.js"><?php echo '</script'; ?>
 >
 </head>
 <body>
 <header>
-    <a href="my.html" class="fanhui">
+    <a href="index.php?a=my" class="fanhui">
         <div class="iconfont icon-iconfontzhizuobiaozhun023126"></div>
     </a>
-    <a href="../../template/my.html" class="wancheng">完成</a>
+    <a href="index.php?a=my" class="wancheng">完成</a>
 </header>
 <div class="header-box"></div>
 
 <div class="tiezhi">
-    <img src="../../src/img/baiyang-handaccount-feiji.png" alt="">
+    <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-feiji.png" alt="">
 </div>
 <div class="tiezhi">
-    <img src="../../src/img/baiyang-handaccount-feiji.png" alt="">
+    <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-feiji.png" alt="">
 </div>
 <main class="baiyang-main">
     <div class="main-box">
         <div class="main-beijing">
-            <img src="../../src/img/baiyang-handaccount-1.jpg" alt="">
+            <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-1.jpg" alt="">
         </div>
         <div class="title">
             初春上海行
         </div>
         <div class="ganxiang">
             <!--<div class="ganxiang-img">-->
-                <!--<img src="../../src/img/baiyang-handaccount-jiaoying.png" alt="">-->
+                <!--<img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-jiaoying.png" alt="">-->
             <!--</div>-->
             <p>这次的上海行可谓说走就走，虽然行程仓促、时间不长，但收获美景、美食
                 的同时，也收获了满满的同窗室友情，让平淡的生活幸福满溢...</p>
@@ -81,7 +90,8 @@ function content_5a669db525dbc6_35696030 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="neirong-yi">
                 <div class="neirong-yi-img">
-                    <img src="../../src/img/baiyang-handaccount-diyizhan.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-diyizhan.png" alt="">
                 </div>
                 <div class="neirong-yi-you">
 
@@ -104,7 +114,8 @@ function content_5a669db525dbc6_35696030 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                 </div>
                 <div class="neirong-er-img">
-                    <img src="../../src/img/baiyang-handaccount-diyizhan.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-diyizhan.png" alt="">
                 </div>
             </div>
         </div>
@@ -123,7 +134,8 @@ function content_5a669db525dbc6_35696030 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="neirong-yi">
                 <div class="neirong-yi-img">
-                    <img src="../../src/img/baiyang-handaccount-diyizhan.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-diyizhan.png" alt="">
                 </div>
                 <div class="neirong-yi-you">
 
@@ -136,21 +148,24 @@ function content_5a669db525dbc6_35696030 (Smarty_Internal_Template $_smarty_tpl)
 
         <div class="shiping-box">
             <a href="" class="shiping">
-                <img src="../../src/img/baiyang-handaccount-shiping1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-shiping1.png" alt="">
                 <div class="shiping-text">
                     <div class="iconfont icon-bofang"></div>
                     <div class="shiping-zi">不负韶华，不负卿</div>
                 </div>
             </a>
             <a href="" class="shiping">
-                <img src="../../src/img/baiyang-handaccount-shiping1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-shiping1.png" alt="">
                 <div class="shiping-text">
                     <div class="iconfont icon-bofang"></div>
                     <div class="shiping-zi">不负韶华，不负卿</div>
                 </div>
             </a>
             <a href="" class="shiping">
-                <img src="../../src/img/baiyang-handaccount-shiping1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-shiping1.png" alt="">
                 <div class="shiping-text">
                     <div class="iconfont icon-bofang"></div>
                     <div class="shiping-zi">不负韶华，不负卿</div>
@@ -164,20 +179,25 @@ function content_5a669db525dbc6_35696030 (Smarty_Internal_Template $_smarty_tpl)
 
         <div class="footer-box"></div>
         <footer>
-            <a href="my.html" class="footer-icon">
-                <img src="../../src/img/baiyang-tiezhi-icon1.png" alt="">
+            <a href="" class="footer-icon">
+                <img src="<?php echo IMG_PATH;?>
+baiyang-tiezhi-icon1.png" alt="">
             </a>
             <a href="" class="footer-icon">
-                <img src="../../src/img/baiyang-wenzi-icon1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+baiyang-wenzi-icon1.png" alt="">
             </a>
             <a href="" class="footer-icon">
-                <img src="../../src/img/baiyang-tupian-icon1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+baiyang-tupian-icon1.png" alt="">
             </a>
             <a href="" class="footer-icon">
-                <img src="../../src/img/baiyang-yingpin-icon1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+baiyang-yingpin-icon1.png" alt="">
             </a>
             <a href="" class="footer-icon">
-                <img src="../../src/img/baiyang-shiping-icon1.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+baiyang-shiping-icon1.png" alt="">
             </a>
         </footer>
     </div>

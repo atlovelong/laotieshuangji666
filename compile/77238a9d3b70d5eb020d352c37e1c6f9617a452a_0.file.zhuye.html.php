@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-23 02:18:12
+/* Smarty version 3.1.30, created on 2018-01-23 03:11:50
   from "C:\wamp64\www\php\uekapp\template\index\zhuye.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a669b64bdfa89_01830040',
+  'unifunc' => 'content_5a66a7f68f84e4_71195561',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '77238a9d3b70d5eb020d352c37e1c6f9617a452a' => 
     array (
       0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\zhuye.html',
-      1 => 1516673813,
+      1 => 1516677008,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a669b64bdfa89_01830040 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a66a7f68f84e4_71195561 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -530,8 +530,12 @@ wei.png" alt="">南京</div>
                 <div class="po-bottom">2小时前</div>
             </div>
         </div>
-        <div class="content"><img src="<?php echo IMG_PATH;?>
-content.jpg" alt=""></div>
+        <div class="content">
+            <a href="index.php?a=look">
+                <img src="<?php echo IMG_PATH;?>
+content.jpg" alt="">
+            </a>
+        </div>
         <div class="comment">
             <div class="zan"><img src="<?php echo IMG_PATH;?>
 zan.png" alt=""></div>

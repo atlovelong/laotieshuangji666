@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-01-23 03:25:21
+  from "C:\wamp64\www\php\uekapp\template\index\comment.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a66ab219b53d0_39086828',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'ee4fc7de218175bf6d1df82d36ab00abdf736467' => 
+    array (
+      0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\comment.html',
+      1 => 1516677921,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a66ab219b53d0_39086828 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,15 +30,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{CSS_PATH}handaccount.css">
-    <link rel="stylesheet" href="{ICON_PATH}iconfont.css">
-    <script src="{JS_PATH}rem.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+handaccount.css">
+    <link rel="stylesheet" href="<?php echo ICON_PATH;?>
+iconfont.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
+>
 </head>
 <style>
     @charset "UTF-8";
     @font-face {
         font-family: zaozigongfangdingding;
-        src: url("{FONT_PATH}zaozigongfangdingding.otf");
+        src: url("<?php echo FONT_PATH;?>
+zaozigongfangdingding.otf");
     }
 
     *{
@@ -468,35 +498,41 @@
    <section class="yi">
        <div class="headerer">
            <div class="zuo">
-               <img src="{IMG_PATH}1.png" alt="">
+               <img src="<?php echo IMG_PATH;?>
+1.png" alt="">
            </div>
            <div class="word">
                <div class="s1">牧野</div>
                <div class="s2">在希望的田野上</div>
            </div>
            <div class="you">
-               <div class="shang"><img src="{IMG_PATH}lywz.png" alt="">广州</div>
+               <div class="shang"><img src="<?php echo IMG_PATH;?>
+lywz.png" alt="">广州</div>
                <div class="bottom">2小时前</div>
            </div>
        </div>
        <div class="xia">
            <div class="tiezhi">
-               <img src="{IMG_PATH}baiyang-handaccount-feiji.png" alt="">
+               <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-feiji.png" alt="">
            </div>
            <div class="tiezhi">
-               <img src="{IMG_PATH}baiyang-handaccount-feiji.png" alt="">
+               <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-feiji.png" alt="">
            </div>
            <main class="baiyang-main bai-ziti">
                <div class="main-box">
                    <div class="main-beijing">
-                       <img src="{IMG_PATH}baiyang-handaccount-1.jpg" alt="">
+                       <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-1.jpg" alt="">
                    </div>
                    <div class="title">
                        初春上海行
                    </div>
                    <div class="ganxiang">
                        <!--<div class="ganxiang-img">-->
-                       <!--<img src="{IMG_PATH}baiyang-handaccount-jiaoying.png" alt="">-->
+                       <!--<img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-jiaoying.png" alt="">-->
                        <!--</div>-->
                        <p>这次的上海行可谓说走就走，虽然行程仓促、时间不长，但收获美景、美食
                            的同时，也收获了满满的同窗室友情，让平淡的生活幸福满溢...</p>
@@ -509,7 +545,8 @@
                        </div>
                        <div class="neirong-yi">
                            <div class="neirong-yi-img">
-                               <img src="{IMG_PATH}baiyang-handaccount-diyizhan.png" alt="">
+                               <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-diyizhan.png" alt="">
                            </div>
                            <div class="neirong-yi-you">
 
@@ -532,7 +569,8 @@
                                </div>
                            </div>
                            <div class="neirong-er-img">
-                               <img src="{IMG_PATH}baiyang-handaccount-diyizhan.png" alt="">
+                               <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-diyizhan.png" alt="">
                            </div>
                        </div>
                    </div>
@@ -551,7 +589,8 @@
                        </div>
                        <div class="neirong-yi">
                            <div class="neirong-yi-img">
-                               <img src="{IMG_PATH}baiyang-handaccount-diyizhan.png" alt="">
+                               <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-diyizhan.png" alt="">
                            </div>
                            <div class="neirong-yi-you">
 
@@ -564,21 +603,24 @@
 
                    <div class="shiping-box">
                        <a href="" class="shiping">
-                           <img src="{IMG_PATH}baiyang-handaccount-shiping1.png" alt="">
+                           <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-shiping1.png" alt="">
                            <div class="shiping-text">
                                <div class="iconfont icon-bofang"></div>
                                <div class="shiping-zi">不负韶华，不负卿</div>
                            </div>
                        </a>
                        <a href="" class="shiping">
-                           <img src="{IMG_PATH}baiyang-handaccount-shiping1.png" alt="">
+                           <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-shiping1.png" alt="">
                            <div class="shiping-text">
                                <div class="iconfont icon-bofang"></div>
                                <div class="shiping-zi">不负韶华，不负卿</div>
                            </div>
                        </a>
                        <a href="" class="shiping">
-                           <img src="{IMG_PATH}baiyang-handaccount-shiping1.png" alt="">
+                           <img src="<?php echo IMG_PATH;?>
+baiyang-handaccount-shiping1.png" alt="">
                            <div class="shiping-text">
                                <div class="iconfont icon-bofang"></div>
                                <div class="shiping-zi">不负韶华，不负卿</div>
@@ -602,38 +644,48 @@
             <div class="twotwo">
                 <div class="photo">
                     <div class="tuone">
-                       <div class="tupian"><img src="{IMG_PATH}onetu.png" alt=""></div>
+                       <div class="tupian"><img src="<?php echo IMG_PATH;?>
+onetu.png" alt=""></div>
                         <div class="zizi">杭州西湖</div>
                     </div>
                     <div class="tutwo">
-                        <div class="tupian"><img src="{IMG_PATH}twotu.png" alt=""></div>
+                        <div class="tupian"><img src="<?php echo IMG_PATH;?>
+twotu.png" alt=""></div>
                         <div class="zizi">南京路</div>
                     </div>
                     <div class="tuthre">
-                        <div class="tupian"><img src="{IMG_PATH}santu.png" alt=""></div>
+                        <div class="tupian"><img src="<?php echo IMG_PATH;?>
+santu.png" alt=""></div>
                         <div class="zizi">古镇石桥</div>
                     </div>
                 </div>
             </div>
             <div class="comment">
-                    <div class="zan"><img src="{IMG_PATH}zan.png" alt=""></div>
+                    <div class="zan"><img src="<?php echo IMG_PATH;?>
+zan.png" alt=""></div>
                     <div class="person">
-                        <div class="head"><img src="{IMG_PATH}1.png" alt=""></div>
-                        <div class="head"><img src="{IMG_PATH}2.png" alt=""></div>
-                        <div class="head"><img src="{IMG_PATH}3.png" alt=""></div>
+                        <div class="head"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
+                        <div class="head"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
+                        <div class="head"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
                     </div>
                     <div class="count">+3</div>
                     <div class="evaluate">
-                        <div class="p"><img src="{IMG_PATH}pin.png" alt=""></div>
+                        <div class="p"><img src="<?php echo IMG_PATH;?>
+pin.png" alt=""></div>
                         <div class="shu">+5</div>
-                        <div class="x"><img src="{IMG_PATH}fen.png" alt=""></div>
+                        <div class="x"><img src="<?php echo IMG_PATH;?>
+fen.png" alt=""></div>
                     </div>
             </div>
         </div>
         <div class="di">
             <div class="dione">
                 <div class="tututu">
-                    <div class="zuotu"><img src="{IMG_PATH}1.png" alt=""></div>
+                    <div class="zuotu"><img src="<?php echo IMG_PATH;?>
+1.png" alt=""></div>
                 </div>
                 <div class="wenzi">
                     <div class="mi">荼蘼</div>
@@ -642,20 +694,24 @@
             </div>
             <div class="ditwo">
                 <div class="tututu">
-                    <div class="zuotu"><img src="{IMG_PATH}2.png" alt=""></div>
+                    <div class="zuotu"><img src="<?php echo IMG_PATH;?>
+2.png" alt=""></div>
                 </div>
                 <div class="wenzione">
                     <div class="mimi">花笺</div>
                     <div class="ting">听人说一个人的时候,温起壶中酒;独倚拜月楼,望着庭中盛放的满院流光;凄冷的冬风定会静静的摇落下</div>
                     <div class="xiatu">
-                        <div class="pp"><img src="{IMG_PATH}situ.png" alt=""></div>
-                        <div class="pp"><img src="{IMG_PATH}wutu.png" alt=""></div>
+                        <div class="pp"><img src="<?php echo IMG_PATH;?>
+situ.png" alt=""></div>
+                        <div class="pp"><img src="<?php echo IMG_PATH;?>
+wutu.png" alt=""></div>
                     </div>
                 </div>
             </div>
             <div class="disan">
                 <div class="tututu">
-                    <div class="zuotu"><img src="{IMG_PATH}3.png" alt=""></div>
+                    <div class="zuotu"><img src="<?php echo IMG_PATH;?>
+3.png" alt=""></div>
                 </div>
                 <div class="wenzitwo">
                     <div class="mimi">花笺</div>
@@ -670,7 +726,8 @@
             </div>
         </div>
         <div class="dibu">
-            <div class="zz"><img src="{IMG_PATH}qitu.png" alt=""></div>
+            <div class="zz"><img src="<?php echo IMG_PATH;?>
+qitu.png" alt=""></div>
             <div class="cc">
                 <div class="zuoline"></div>
                 <div class="youzi">挥一挥衣袖,留两句话再走...</div>
@@ -679,4 +736,5 @@
         </div>
     </section>
 </body>
-</html>
+</html><?php }
+}

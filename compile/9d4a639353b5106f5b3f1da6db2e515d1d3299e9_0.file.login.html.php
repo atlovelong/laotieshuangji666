@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-23 02:02:41
+/* Smarty version 3.1.30, created on 2018-01-23 03:11:29
   from "C:\wamp64\www\php\uekapp\template\index\login.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a6697c110c983_77900026',
+  'unifunc' => 'content_5a66a7e1c34276_44485357',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9d4a639353b5106f5b3f1da6db2e515d1d3299e9' => 
     array (
       0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\login.html',
-      1 => 1516672213,
+      1 => 1516677008,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a6697c110c983_77900026 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a66a7e1c34276_44485357 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -318,7 +318,9 @@ jquery.js"><?php echo '</script'; ?>
 
 <div class="top"></div>
 <div class="login">
-    <div class="left">取消</div>
+    <a href="index.php?a=initthree">
+        <div class="left">取消</div>
+    </a>
     <div class="middle" style="text-align: center;">登录</div>
     <a href="index.php?a=zhuce">
         <div class="right">注册</div>

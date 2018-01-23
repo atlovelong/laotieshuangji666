@@ -89,6 +89,6 @@ class index
     function comment(){
         $this->smarty->display('index/comment.html');
     }
-    
+
 
 }

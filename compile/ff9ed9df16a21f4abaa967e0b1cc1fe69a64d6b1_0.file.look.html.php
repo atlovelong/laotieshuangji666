@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-01-23 03:12:34
+  from "C:\wamp64\www\php\uekapp\template\index\look.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a66a822b34277_47421677',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'ff9ed9df16a21f4abaa967e0b1cc1fe69a64d6b1' => 
+    array (
+      0 => 'C:\\wamp64\\www\\php\\uekapp\\template\\index\\look.html',
+      1 => 1516677152,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a66a822b34277_47421677 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,9 +30,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{ICON_PATH}iconfont.css">
+    <link rel="stylesheet" href="<?php echo ICON_PATH;?>
+iconfont.css">
 </head>
-<script src="{JS_PATH}rem.js"></script>
+<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+rem.js"><?php echo '</script'; ?>
+>
 <style>
     *{
         margin: 0;
@@ -114,13 +142,7 @@
         color: #ffe59c;
         font-family: "平方";
     }
-    /*p{*/
-        /*width:4.73rem;*/
-        /*height: 0.35rem;*/
-        /*font-size: 0.25rem;*/
-        /*color: #fff;*/
-        /*font-family: "平方";*/
-    /*}*/
+    /*p*/
     div.five{
         width:4.73rem;
         height:0.9rem;
@@ -241,7 +263,8 @@
    </section>
    <div class="photo">
        <div class="shang">
-           <img src="{IMG_PATH}tu4.png" alt="">
+           <img src="<?php echo IMG_PATH;?>
+tu4.png" alt="">
        </div>
        <div class="xia">
            <div class="one">
@@ -257,12 +280,16 @@
            <div class="five">
                <ul>
                    <li>独特风情&nbsp&nbsp&nbsp&nbsp
-                       <img src="{IMG_PATH}you.png" alt="">&nbsp&nbsp&nbsp&nbsp群山起伏&nbsp&nbsp&nbsp&nbsp
-                       <img src="{IMG_PATH}you.png" alt="">&nbsp&nbsp&nbsp&nbsp雪峰林立</li>
+                       <img src="<?php echo IMG_PATH;?>
+you.png" alt="">&nbsp&nbsp&nbsp&nbsp群山起伏&nbsp&nbsp&nbsp&nbsp
+                       <img src="<?php echo IMG_PATH;?>
+you.png" alt="">&nbsp&nbsp&nbsp&nbsp雪峰林立</li>
                    <li></li>
                    <li>独特风情&nbsp&nbsp&nbsp&nbsp
-                       <img src="{IMG_PATH}you.png" alt="">&nbsp&nbsp&nbsp&nbsp群山起伏&nbsp&nbsp&nbsp&nbsp
-                       <img src="{IMG_PATH}you.png" alt="">&nbsp&nbsp&nbsp&nbsp雪峰林立</li>
+                       <img src="<?php echo IMG_PATH;?>
+you.png" alt="">&nbsp&nbsp&nbsp&nbsp群山起伏&nbsp&nbsp&nbsp&nbsp
+                       <img src="<?php echo IMG_PATH;?>
+you.png" alt="">&nbsp&nbsp&nbsp&nbsp雪峰林立</li>
                </ul>
            </div>
            <div class="six">更多笺友经历</div>
@@ -277,4 +304,5 @@
        <div class="thre"><div class="yuan2"></div>----------------------</div>
    </div>
 </body>
-</html>
+</html><?php }
+}
